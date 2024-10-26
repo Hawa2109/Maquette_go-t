@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+.header-image {
+  background-image: url("../images/banniere2.jpg");
+  /*   filter: brightness(0.9); pour assombrir un peu */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.header-image h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.header-button {
+  display: flex;
+  justify-content: center;
+}
+.btn-outline-success {
+  color: #58ff33;
+  border: 0.5px solid #58ff33;
+}
+.btn-outline-secondary {
+  color: aqua;
+  border: 0.5px solid aqua;
+}
+.section-title {
+  text-align: center;
+  margin: 40px 0;
+}
+/* Section card */
+.row-cols-1 {
+  background: url(../images/Carrousel/carousel4.jpg) no-repeat;
+  background-size: cover;
+}
+/* .card {
+  margin-left: 150px;
+  margin-right: 150px;
+} */
+/* FOOTER */
+footer {
+  background: url(../images/banniere2.jpg);
+  filter: brightness(0.8); /*  pour assombrir un peu */
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+footer p {
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
